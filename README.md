@@ -28,6 +28,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
+69. **Køre Alt**
 ```bash
 git clone https://github.com/gotflamingo/Auto-Lootbox.git
 cd Auto-Lootbox-Discord
