@@ -8,7 +8,7 @@ Auto Lootbox er noget jeg har lavet, der automatiserer åbningen af lootkasser p
 - Bruger cookies og token til autentifikation med Discord's API
 - Printer status for hver åbning af lootkasse
   
-![image](https://github.com/GotFlamingo/Auto-Lootbox-Discord-/assets/126965713/b72934cb-4ff1-41fd-9533-b8c872e6aa22)
+![image](https://github.com/GotFlamingo/Auto-Lootbox-Discord/assets/126965713/fe267d0e-0d60-444d-b26b-958e9e17c047)
 
 ## Installation
 1. Klon dette repository ved at skrive følgende kommando i din terminal:
