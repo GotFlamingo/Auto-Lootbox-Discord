@@ -22,7 +22,7 @@ logo = f'''{Fore.LIGHTMAGENTA_EX}            .-.
 
 
 ctypes.windll.kernel32.SetConsoleTitleW("Auto Loot box | Github.com/gotflamingo | Made By GoT Flamingo")
-
+os.system("cls")
 print(logo)
 TOKEN = input(f"{Fore.LIGHTWHITE_EX}Enter {Fore.LIGHTGREEN_EX}Discord Token:{Fore.LIGHTWHITE_EX} ")
 
