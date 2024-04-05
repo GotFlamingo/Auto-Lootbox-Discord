@@ -49,10 +49,10 @@ headers = {
 
 while True:
     response = requests.post('https://discord.com/api/v9/users/@me/lootboxes/open', headers=headers)
-    ctypes.windll.kernel32.SetConsoleTitleW("Github Searcher | Github.com/gotflamingo | Made By GoT Flamingo")
+    ctypes.windll.kernel32.SetConsoleTitleW("Auto Loot box | Github.com/gotflamingo | Made By GoT Flamingo")
     if response.status_code == 200:
         print(f"{Fore.LIGHTGREEN_EX}Loot box successfully opened.")
     else:
-        ctypes.windll.kernel32.SetConsoleTitleW("Github Searcher | Github.com/gotflamingo | Made By GoT Flamingo")
+        ctypes.windll.kernel32.SetConsoleTitleW("Auto Loot box | Github.com/gotflamingo | Made By GoT Flamingo")
         print(f"{Fore.LIGHTRED_EX}Failed to open loot box. Status code: {response.status_code}")
     time.sleep(5)
